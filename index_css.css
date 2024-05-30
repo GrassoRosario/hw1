@@ -1,0 +1,25 @@
+header {
+    background-image: url("immagini/index_background.jpg");
+}
+
+#corpo_header div{
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    width: 450px;
+    margin-top:50px;
+    padding-top: 40px;
+    line-height: 6rem;
+
+}
+
+
+#corpo_header p{
+    padding-top: 10px;
+    width:100%;
+
+}
+
+#corpo_header a{
+    text-decoration: underline;
+    text-decoration-color: black;
+}

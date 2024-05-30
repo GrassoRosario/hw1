@@ -1,0 +1,133 @@
+  body{
+    margin: 0px;
+  }
+
+  .hidden{
+    display:none;
+  }
+
+  .errore {
+    font-weight: bold;
+    background-color: #F2DEDE;
+    width: 100%;
+    margin: 20px 0px;
+    color: #A94442;
+    z-index: 0;
+    
+  }
+
+
+  main {
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+    height:100vh;
+
+  }
+
+  #sfondo{
+    width: 100%;
+    height: 140%;
+  }
+
+  section {
+    padding: 20px;
+    width: 330px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    background-color: white;
+    left:60px;
+    top:60px;
+
+
+  }
+
+  h1{
+    font-size:18px;
+  }
+
+  p {
+    margin: 0.3em;
+    margin-bottom:30px;
+  }
+
+
+  #logo_wwf{
+    margin-top: 20px;
+    width: 160px;
+  }
+
+
+  .form-input{
+    background-color: #F0F3F5;
+    padding: 6px 12px;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: #2d2d2d;
+    border-color: #ebeef0;
+    width: 95%;
+  }
+
+  .form-arguments{
+    width: 300px;
+    max-height: 400px; /* Altezza massima della sezione visibile */
+    overflow-y: auto; /* Aggiunge una barra di scorrimento verticale */
+    border: 1px solid #ccc; /* Bordo per visibilità */
+  }
+
+  
+
+  #form-submit{
+    background-color: #F47B36;
+    border-color: #F47B36;
+    color: white;
+    font-weight: 600;
+    margin-top:0px;
+
+  }
+  a{
+    position:relative;
+    margin-top: -10px;
+
+  }
+  .material-symbols-outlined{
+    color:#F47B36;
+    padding-left: 5px;
+    position: absolute;
+    bottom:-3px;
+  }
+
+  a:hover{
+    color:#F47B36;
+    cursor:pointer;
+
+  }
+
+  #reindirizzamento{
+    margin-top: 30px;
+    border-top:rgb(235,238,240) solid 1px;
+    width: 100%;
+    padding: 20px 0px 30px 0px;
+
+  }
+
+  #reindirizzamento p{
+    margin: 10px 0px;
+  }
+
+  #reindirizzamento a{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #24aa98;
+    border-color: #24aa98;
+    color: white;
+    font-weight: 600;
+    width: calc(95% - 24px);
+    padding: 6px 12px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
